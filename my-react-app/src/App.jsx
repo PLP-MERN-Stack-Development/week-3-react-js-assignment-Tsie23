@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import { ThemeProvider } from './components/ThemeContext';
-import TaskManager from '../src/components/TaskManager';
+import TaskManager from './components/TaskManager';
 import ApiList from './components/ApiList';
 
 function App() {
