@@ -53,18 +53,16 @@ npm run preview
 ```
 
 ## 🖼️ Screenshots
-Add screenshots of your application below. You can take high-quality screenshots using Chrome DevTools (Device Toolbar > three-dot menu > Capture screenshot) or the Windows Snipping Tool (Win+Shift+S).
+Click below links for application screenshots. 
 
 | Task Manager | API Explorer |
 |-------------|-------------|
 | ![Task Manager Screenshot](./assets/task-manager-screenshot.png) | ![API Explorer Screenshot](./assets/api-explorer-screenshot.png) |
 
-> **Tip:** Save your screenshots in `src/assets/` and update the image paths above.
-
 ## 🌐 Deployment
 Deploy your app to Vercel, Netlify, or GitHub Pages. Add your deployed URL below:
 
-**Deployed URL:** [https://your-deployment-url.com](https://your-deployment-url.com)
+**Deployed URL:** [https://tsie23.github.io/task-manager/]
 
 ## 📁 Project Structure
 ```

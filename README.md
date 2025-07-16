@@ -1,71 +1,98 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19846740&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 🎨 React Task Manager & API Explorer
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A responsive React application built with Vite and Tailwind CSS, demonstrating component architecture, state management, hooks, and API integration.
 
-## Assignment Overview
+## 🚀 Features
+- **Task Manager**: Add, complete, delete, and filter tasks. Tasks persist in localStorage.
+- **API Explorer**: Fetches and displays posts from JSONPlaceholder with search, pagination, loading, and error states.
+- **Reusable Components**: Button, Card, Navbar, Footer, Layout, and more.
+- **Theme Switcher**: Toggle between light and dark mode using Tailwind's dark mode and React Context.
+- **Responsive Design**: Works on mobile, tablet, and desktop.
+- **Custom Hook**: `useLocalStorage` for persisting tasks.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🛠️ Setup Instructions
 
-## Getting Started
+### Prerequisites
+- Node.js v18 or higher
+- pnpm (recommended) or npm
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
-
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
+### 1. Install dependencies
+Using pnpm (recommended):
+```sh
+pnpm install
 ```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+Or using npm:
+```sh
+npm install
 ```
 
-## Submission
+### 2. Start the development server
+Using pnpm:
+```sh
+pnpm run dev
+```
+Or using npm:
+```sh
+npm run dev
+```
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+The app will be available at the URL shown in your terminal (e.g., http://localhost:5173/).
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### 3. Build for production
+```sh
+pnpm run build
+# or
+npm run build
+```
 
-## Resources
+### 4. Preview production build
+```sh
+pnpm run preview
+# or
+npm run preview
+```
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## 🖼️ Screenshots
+Click below links for application screenshots. 
+
+| Task Manager | API Explorer |
+|-------------|-------------|
+| ![Task Manager Screenshot](./assets/task-manager-screenshot.png) | ![API Explorer Screenshot](./assets/api-explorer-screenshot.png) |
+
+## 🌐 Deployment
+Deploy your app to Vercel, Netlify, or GitHub Pages. Add your deployed URL below:
+
+**Deployed URL:** [https://tsie23.github.io/task-manager/]
+
+## 📁 Project Structure
+```
+my-react-app/
+├── public/                # Static assets
+├── src/
+│   ├── assets/            # Images and icons
+│   ├── components/        # Reusable React components
+│   ├── App.jsx            # Main app component
+│   ├── main.jsx           # Entry point
+│   ├── App.css, index.css # Styles
+├── package.json           # Project metadata and scripts
+├── vite.config.js         # Vite configuration
+├── tailwind.config.js     # Tailwind CSS config (if present)
+└── README.md              # This file
+```
+
+## 🧩 Technologies Used
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+- [prop-types](https://www.npmjs.com/package/prop-types)
+
+## ✨ Credits
+- Developed by Kebaabetswe Sennelo for Week 3 MERN Assignment
+- [Assignment Details](../Week3-Assignment.md)
+
+## 📄 License
+This project is for educational purposes.
+
+---
